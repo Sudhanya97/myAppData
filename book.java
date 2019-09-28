@@ -14,12 +14,12 @@ public void setCity(String city)
 	this.city =  city;
 }
 
-public void getName()
+public String getName()
 {
 	return name;
 }
 
-public void getCity()
+public String getCity()
 {
 	return city;
 }
