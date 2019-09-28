@@ -1,17 +1,19 @@
 public Class book
 {
 	private String name;
-	private String city;
+	private int id;
 }
 
 public void setName(String name)
 {
 	this.name = name;
+	System.out.println("Book name is set : ");
 }
 
-public void setCity(String city)
+public void setId(int id)
 {
-	this.city =  city;
+	this.id =  id;
+	System.out.println("Book is is set");
 }
 
 public String getName()
@@ -19,7 +21,7 @@ public String getName()
 	return name;
 }
 
-public String getCity()
+public int id()
 {
-	return city;
+	return id;
 }
